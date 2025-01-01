@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { GlobalContext } from "./context";
+import { GlobalContext } from "../../context";
 
 export default function Details() {
   const { id } = useParams();
